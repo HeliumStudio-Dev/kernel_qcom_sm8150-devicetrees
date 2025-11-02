@@ -76,6 +76,7 @@
 			qcom,freq-domain = <&cpufreq_hw 0 4>;
 			capacity-dmips-mhz = <488>;
 			dynamic-power-coefficient = <232>;
+			cpu-idle-states = <&SLVR_RAIL_OFF>;
 			next-level-cache = <&L2_0>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
 			#cooling-cells = <2>;
@@ -113,6 +114,7 @@
 			qcom,freq-domain = <&cpufreq_hw 0 4>;
 			capacity-dmips-mhz = <488>;
 			dynamic-power-coefficient = <232>;
+			cpu-idle-states = <&SLVR_RAIL_OFF>;
 			next-level-cache = <&L2_1>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
 			#cooling-cells = <2>;
@@ -145,6 +147,7 @@
 			qcom,freq-domain = <&cpufreq_hw 0 4>;
 			capacity-dmips-mhz = <488>;
 			dynamic-power-coefficient = <232>;
+			cpu-idle-states = <&SLVR_RAIL_OFF>;
 			next-level-cache = <&L2_2>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
 			#cooling-cells = <2>;
@@ -177,6 +180,7 @@
 			qcom,freq-domain = <&cpufreq_hw 0 4>;
 			capacity-dmips-mhz = <488>;
 			dynamic-power-coefficient = <232>;
+			cpu-idle-states = <&SLVR_RAIL_OFF>;
 			next-level-cache = <&L2_3>;
 			qcom,lmh-dcvs = <&lmh_dcvs0>;
 			#cooling-cells = <2>;
@@ -209,6 +213,7 @@
 			qcom,freq-domain = <&cpufreq_hw 1 4>;
 			capacity-dmips-mhz = <1024>;
 			dynamic-power-coefficient = <369>;
+			cpu-idle-states = <&GOLD_RAIL_OFF>;
 			next-level-cache = <&L2_4>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
 			#cooling-cells = <2>;
@@ -250,6 +255,7 @@
 			qcom,freq-domain = <&cpufreq_hw 1 4>;
 			capacity-dmips-mhz = <1024>;
 			dynamic-power-coefficient = <369>;
+			cpu-idle-states = <&GOLD_RAIL_OFF>;
 			next-level-cache = <&L2_5>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
 			#cooling-cells = <2>;
@@ -291,6 +297,7 @@
 			qcom,freq-domain = <&cpufreq_hw 1 4>;
 			capacity-dmips-mhz = <1024>;
 			dynamic-power-coefficient = <369>;
+			cpu-idle-states = <&GOLD_RAIL_OFF>;
 			next-level-cache = <&L2_6>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
 			#cooling-cells = <2>;
@@ -332,6 +339,7 @@
 			qcom,freq-domain = <&cpufreq_hw 2 4>;
 			capacity-dmips-mhz = <1024>;
 			dynamic-power-coefficient = <421>;
+			cpu-idle-states = <&GOLD_RAIL_OFF>;
 			next-level-cache = <&L2_7>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
 			#cooling-cells = <2>;
